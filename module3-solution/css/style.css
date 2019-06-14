@@ -1,0 +1,95 @@
+        * {
+            box-sizing: border-box;
+            font-family: 'Abel', sans-serif;
+        }
+        
+        body {
+            font-size: 16px;
+            color: rgb(0, 0, 0);
+            background-color: #fafafa;
+        }
+        
+        #header-nav {
+            background-color: #575757;
+            border-radius: 0;
+            border: 0;
+        }
+        
+        .navbar-brand {
+            padding-top: 25px;
+            margin-bottom: 10px;
+        }
+        
+        .navbar-brand h1 {
+            /* Restaurant name */
+            font-family: 'Abel', sans-serif;
+            color: #70abb1;
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-top: 0;
+            margin-bottom: 0px;
+            line-height: .75;
+        }
+        
+        .navbar-brand a:hover,
+        .navbar-brand a:focus {
+            text-decoration: none;
+        }
+        
+        #nav-list {
+            margin-top: 10px;
+        }
+        
+        #nav-list a {
+            color: #70abb1;
+            text-align: center;
+        }
+        
+        #nav-list a:hover {
+            background: rgba(231, 231, 231, 0.822);
+        }
+        
+        #nav-list a span {
+            font-size: 1.8em;
+        }
+        
+        .navbar-header button.navbar-toggle,
+        .navbar-header .icon-bar {
+            border: 1px solid #70abb1;
+        }
+        
+        .navbar-header button.navbar-toggle {
+            clear: both;
+            margin-top: -30px;
+        }
+        /* END HEADER */
+        
+        p {
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 125%;
+            font-weight: bold;
+        }
+        
+        #menu-tile {
+            width: 100%;
+            float: left;
+            text-align: left;
+            background-color: #575757;
+            font-size: 18px;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+        }
+        
+        @media (min-width: 992px) {
+            margin-left: 1%;
+        }
+        
+        @media (min-width: 768px) and (max-width: 991px) {
+            margin-left: 1%;
+        }
+        
+        @media (max-width: 767px) {
+            margin-bottom: 20px;
+        }
